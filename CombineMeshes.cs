@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
@@ -59,3 +60,4 @@ public class CombineMeshes : MonoBehaviour
         AssetDatabase.SaveAssets();
     }
 }
+#endif
